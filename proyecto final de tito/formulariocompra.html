@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulariocompra.css">
+    <title>Formulario de Compra</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Formulario de Compra</h2>
+        <form id="purchaseForm">
+            <label for="productName">Producto:</label>
+            <input type="text" id="productName" name="productName" required>
+
+            <label for="quantity">Cantidad:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <label for="totalPrice">Precio Total:</label>
+            <input type="text" id="totalPrice" name="totalPrice" readonly>
+
+            <button type="button" onclick="calculateTotal()">Calcular Total</button>
+            <button type="submit">Realizar Compra</button>
+        </form>
+    </div>
+
+    <script src="formulariocompra.js"></script>
+</body>
+</html>

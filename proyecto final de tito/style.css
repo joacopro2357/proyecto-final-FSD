@@ -1,0 +1,155 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    margin-top: 60px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos del navbar */
+  
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  /* Estilos de las noticias */
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
+  .btn-primary {
+    background-color: #ff6600;
+    border-color: #ff6600;
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background-color: #cc5200;
+    border-color: #cc5200;
+  }
+  
+  /* Estilos del footer */
+  
+  .footer {
+    background-color: #333;
+    padding: 40px 0;
+    color: #fff;
+  }
+  
+  .footer-logo {
+    width: 120px;
+    height: auto;
+  }
+  
+  .footer h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+  }
+  
+  .footer-social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-social-media li a {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  /* Estilos específicos de cada página */
+  
+  /* Estilos de login.html */
+  
+  .login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .login-form button[type="submit"]:hover,
+  .login-form button[type="submit"]:focus {
+    background-color: #cc5200;
+  }
+  
+  /* Estilos de acerca.html */
+  
+  .acerca-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .acerca-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .acerca-section p {
+    color: #666;
+  }
+  
+  /* Estilos personalizados */
+  
+  /* Agrega tus estilos personalizados aquí */
+  

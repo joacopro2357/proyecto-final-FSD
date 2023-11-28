@@ -1,0 +1,32 @@
+.slider {
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.slider img.active {
+  opacity: 1;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-button.prev {
+  left: 10px;
+}
+
+.slider-button.next {
+  right: 10px;
+}
